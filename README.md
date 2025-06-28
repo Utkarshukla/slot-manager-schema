@@ -8,6 +8,10 @@ Migration tables --
 3 Model:
     User,Plan,Website
 
+Relationships 
+    user<-many-to-many->plan
+    user<-one-to-many->website
+
 Middleware:
     Check the plan permission 
 
