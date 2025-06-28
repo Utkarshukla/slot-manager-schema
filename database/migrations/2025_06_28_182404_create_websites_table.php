@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('tracking_code')->nullable();
             $table->boolean('status')->default(true);
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

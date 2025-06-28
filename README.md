@@ -25,4 +25,7 @@ Jobs
 
 // Ignored
 User creation
-Plan Creation 
+Plan Creation
+
+
+![Schema Design](image.png "Utkarsh SHukla")
